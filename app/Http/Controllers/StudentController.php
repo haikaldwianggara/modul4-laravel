@@ -10,15 +10,15 @@ class StudentController extends Controller
 {
     $students = [
         [
-            'name' => 'Wahyudi',
-            'major' => 'Informatika',
-            'age' => 22,
+            'name' => 'HAIKAL',
+            'major' => 'SIKC',
+            'age' => 20,
             'courses' => ['Pemrograman Web', 'Database', 'Cloud Computing'],
         ],
         [
             'name' => 'Siti',
             'major' => 'Sistem Informasi',
-            'age' => 21,
+            'age' => 22,
             'courses' => ['UI/UX Design', 'Manajemen Proyek', 'IoT'],
         ],
     ];

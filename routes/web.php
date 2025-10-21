@@ -8,3 +8,7 @@ Route::get('/', function () {
 });
 
 Route::get('/students', [StudentController::class, 'index'])->name('students.index');
+
+Route::get('/beranda', function () {
+    return view('beranda');
+});
